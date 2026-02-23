@@ -214,7 +214,9 @@
           {% assign award_btn_class = award_btn_class | append: ' top-article-award' %}
         {% endif %}
         <a class="{{ award_btn_class }}" role="button">
-          <span class="award-label">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</span>
+          <span class="award-label">
+            {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+          </span>
         </a>
       {% endif %}
       {% if entry.abstract %}
@@ -345,7 +347,7 @@
               aria-label="Google Scholar link"
               role="button"
             >
-              {% assign citation_count = nil %}
+              {% assign citation_count = null %}
               {% assign citation_label = 'link' %}
               {% assign scholar_user_id = site.data.socials.scholar_userid %}
               {% if scholar_user_id and site.data.citations and site.data.citations.papers %}
@@ -354,7 +356,7 @@
                   {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
                 {% endif %}
               {% endif %}
-              {% if citation_count != nil %}
+              {% if citation_count != null %}
                 {% assign citation_label = citation_count %}
               {% endif %}
 
