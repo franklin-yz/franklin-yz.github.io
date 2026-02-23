@@ -6,7 +6,7 @@ subtitle: PhD Candidate in Health Services Research | University of Michigan
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false
 
 selected_papers: true
