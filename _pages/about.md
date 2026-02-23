@@ -2,33 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student. University. Department.
+subtitle: PhD Candidate in Health Services Research | University of Michigan
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Office 123</p>
-    <p>Department Building</p>
-    <p>University, City, State</p>
+  image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-I am a PhD student at [University] working on [research area]. My research interests include [topic 1], [topic 2], and [topic 3]. I am passionate about advancing our understanding of [field of study] and developing innovative solutions to challenging problems.
+I am **Yifan Zheng (郑逸凡), PharmD**, a PhD candidate in the Clinical Pharmacy Translational Science program at the University of Michigan, [Health Services Research Track](https://pharmacy.umich.edu/pharmacy-programs/phd/clinical-pharmacy-translation-science/health-services-research-track/).
 
-I completed my undergraduate studies at [University] where I majored in [major]. Currently, I am working with [Advisor Name] on projects related to [research focus].
+My research training spans three schools at Michigan: College of Pharmacy (PhD training), College of Engineering (joint PhD training in [Scientific Computing](https://micde.umich.edu/academic-programs/phd-in-scientific-computing/)), and Medical School (dual MS training in [Bioinformatics](https://medschool.umich.edu/departments/computational-medicine-bioinformatics/education/dual-degree-program)). This cross-school path shapes how I work across clinical questions, quantitative methods, and computational modeling.
 
-Feel free to reach out if you'd like to discuss potential collaborations or have questions about my research!
+I study how real-world medication data can support safer and more personalized treatment decisions, with a focus on pharmacoepidemiology, causal machine learning, and human-AI decision support in pharmacy workflows. I work with [Dr. Corey Lester](https://pharmacy.umich.edu/people/lester-corey/) in the [Medication Data Science (MeDS) Lab](https://pharmacy.umich.edu/lab/medication-data-science-lab/), where I serve as a Graduate Student Research Assistant.
+
+I currently work part-time in real-world evidence at [AbbVie](https://www.abbvie.com/) and previously completed a cooperative education (co-op) placement in clinical pharmacology and model-based meta-analysis at [Merck](https://www.merck.com/). Before PhD training, I worked as a clinical pharmacist and lecturer at [The First Affiliated Hospital, Sun Yat-sen University](https://www.fahsysu.org.cn/en/home). I earned my PharmD from the University of Michigan and my Bachelor of Science in Pharmaceutical Sciences from [China Pharmaceutical University](https://www.cpu.edu.cn/).

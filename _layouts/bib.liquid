@@ -86,7 +86,7 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {{- author.first }}
+            Yifan
             {{ author_last_html -}}
           </em>
         {%- else -%}
@@ -110,7 +110,18 @@
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% assign more_author_is_self = false %}
+          {%- assign more_author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+          {% if site.scholar.last_name contains more_author_last_name %}
+            {% if site.scholar.first_name contains author.first %}
+              {% assign more_author_is_self = true %}
+            {% endif %}
+          {% endif %}
+          {% if more_author_is_self %}
+            {% assign more_authors_show = more_authors_show | append: 'Yifan ' | append: author.last %}
+          {% else %}
+            {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% endif %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
@@ -183,15 +194,27 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% assign entry_note_text = entry.note | strip %}
+    {% if entry_note_text != '' %}
+      <div class="periodical publication-note-row">
+        {% assign entry_note_downcase = entry_note_text | downcase %}
+        {% if entry_note_downcase == 'conference abstract' or entry_note_downcase == 'preprint' %}
+          <span class="publication-note-tag">{{ entry_note_text }}</span>
+        {% else %}
+          {{ entry_note_text }}
+        {% endif %}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+        {% assign award_btn_class = 'award btn btn-sm z-depth-0 award-pill' %}
+        {% if entry.award_name and entry.award_name contains 'Top Article' %}
+          {% assign award_btn_class = award_btn_class | append: ' top-article-award' %}
+        {% endif %}
+        <a class="{{ award_btn_class }}" role="button">
+          <span class="award-label">{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}</span>
         </a>
       {% endif %}
       {% if entry.abstract %}
@@ -322,27 +345,22 @@
               aria-label="Google Scholar link"
               role="button"
             >
-              {% assign citation_count = 0 %}
-              {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
-              {% assign publication_key = entry.google_scholar_id %}
-
-              {% if site.data.citations.papers[scholar_id_key] %}
-                {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
-              {% elsif site.data.citations.papers[publication_key] %}
-                {% assign citation_count = site.data.citations.papers[publication_key].citations %}
-              {% else %}
-                {% for paper in site.data.citations.papers %}
-                  {% assign paper_key = paper[0] %}
-                  {% if paper_key contains entry.google_scholar_id %}
-                    {% assign citation_count = paper[1].citations %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
+              {% assign citation_count = nil %}
+              {% assign citation_label = 'link' %}
+              {% assign scholar_user_id = site.data.socials.scholar_userid %}
+              {% if scholar_user_id and site.data.citations and site.data.citations.papers %}
+                {% assign scholar_id_key = scholar_user_id | append: ':' | append: entry.google_scholar_id %}
+                {% if site.data.citations.papers[scholar_id_key] %}
+                  {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
+                {% endif %}
+              {% endif %}
+              {% if citation_count != nil %}
+                {% assign citation_label = citation_count %}
               {% endif %}
 
               <img
-                src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{{ citation_count }} Google Scholar citations"
+                src="https://img.shields.io/badge/scholar-{{ citation_label }}-4285F4?logo=googlescholar&labelColor=beige"
+                alt="{% if citation_count != nil %}{{ citation_count }} Google Scholar citations{% else %}Google Scholar record{% endif %}"
               >
             </a>
           {% endif %}

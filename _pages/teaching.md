@@ -2,14 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: true
+description: Courses taught, guest lectures, and mentoring activities.
+nav: false
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+This page will host your teaching portfolio, including:
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- Course instruction and teaching assistant roles
+- Guest lectures and invited tutorials
+- Mentoring and advising
 
 {% include courses.liquid %}

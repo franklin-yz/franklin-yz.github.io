@@ -114,7 +114,24 @@
           }
         }
         a.award.btn {
-          border-color: var(--global-highlight-color);
+          border: 2px solid v.$umich-blue;
+          background-color: var(--global-highlight-color);
+          color: v.$umich-blue !important;
+          font-weight: 800;
+          letter-spacing: 0.01em;
+          box-shadow: 0 2px 0 rgba(0, 39, 76, 0.22);
+          transition: all 0.15s ease;
+
+          .award-label {
+            font-weight: 800;
+          }
+
+          &:hover {
+            color: v.$umich-blue !important;
+            border-color: v.$umich-blue;
+            transform: translateY(-1px);
+            box-shadow: 0 5px 14px rgba(0, 39, 76, 0.2);
+          }
         }
       }
 

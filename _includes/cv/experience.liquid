@@ -16,12 +16,37 @@
           {% capture end_date %}
             {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
           {% endcapture %}
+          {% assign start_raw = start_date | strip %}
+          {% assign end_raw = end_date | strip %}
 
-          {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+          {% if start_raw != '' %}
+            {% assign start_parts = start_raw | split: '-' %}
+            {% if start_raw contains '-' %}
+              {% if start_parts.size == 2 %}
+                {% assign start_norm = start_raw | append: '-01' %}
+              {% else %}
+                {% assign start_norm = start_raw %}
+              {% endif %}
+              {% assign start_display = start_norm | date: '%b %Y' %}
+            {% else %}
+              {% assign start_display = start_raw %}
+            {% endif %}
+
+            {% assign end_downcase = end_raw | downcase %}
+            {% if end_raw == '' or end_downcase == 'present' %}
+              {% assign end_display = 'Present' %}
+            {% elsif end_raw contains '-' %}
+              {% assign end_parts = end_raw | split: '-' %}
+              {% if end_parts.size == 2 %}
+                {% assign end_norm = end_raw | append: '-01' %}
+              {% else %}
+                {% assign end_norm = end_raw %}
+              {% endif %}
+              {% assign end_display = end_norm | date: '%b %Y' %}
+            {% else %}
+              {% assign end_display = end_raw %}
+            {% endif %}
+            {% assign date = start_display | append: ' - ' | append: end_display %}
           {% else %}
             {% assign date = '' %}
           {% endif %}

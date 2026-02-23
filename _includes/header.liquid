@@ -17,7 +17,18 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            {% assign title_name = site.title %}
+            {% assign title_suffix = '' %}
+            {% if site.title contains ',' %}
+              {% assign title_parts = site.title | split: ',' %}
+              {% assign title_name = title_parts[0] | strip %}
+              {% assign title_suffix = site.title | remove_first: title_name %}
+            {% endif %}
+            {% assign title_suffix_text = title_suffix | remove_first: ',' | strip %}
+            <span class="site-title-name">{{ title_name }}</span>
+            {% if title_suffix_text != '' %}
+              , <span class="site-title-credential">{{ title_suffix_text }}</span>
+            {% endif %}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
