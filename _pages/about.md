@@ -23,7 +23,7 @@ latest_posts:
   limit: 3
 ---
 
-I am **Yifan Zheng (郑逸凡), PharmD**, and my long-term goal is to support safer, more personalized medication treatment decisions in pharmacy workflows using real-world medication data, pharmacoepidemiology, causal machine learning, and human-AI decision support.
+I am **Yifan Zheng (郑逸凡), PharmD**, and my long-term goal is to support safer, more personalized medication treatment decisions and higher-quality, safer pharmacy workflows using real-world medication data, pharmacoepidemiology, causal machine learning, and human-AI decision support.
 
 I am a PhD candidate in the Clinical Pharmacy Translational Science program at the University of Michigan, [Health Services Research Track](https://pharmacy.umich.edu/pharmacy-programs/phd/clinical-pharmacy-translation-science/health-services-research-track/). My research training spans three schools at Michigan: College of Pharmacy (PhD training), College of Engineering (joint PhD training in [Scientific Computing](https://micde.umich.edu/academic-programs/phd-in-scientific-computing/)), and Medical School (dual MS training in [Bioinformatics](https://medschool.umich.edu/departments/computational-medicine-bioinformatics/education/dual-degree-program)). This cross-school path shapes how I work across clinical questions, quantitative methods, and computational modeling.
 
