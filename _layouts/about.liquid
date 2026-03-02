@@ -103,8 +103,45 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
+      {% assign bottom_cv_pdf = site.data.socials.cv_pdf %}
+      {% assign bottom_email = site.data.socials.email %}
+      {% assign bottom_linkedin = site.data.socials.linkedin_username %}
+      {% assign bottom_orcid = site.data.socials.orcid_id %}
+      {% assign bottom_scholar = site.data.socials.scholar_userid %}
+      {% assign bottom_github = site.data.socials.github_username %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-icons">
+          {% if bottom_cv_pdf %}
+            <a href="{{ bottom_cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Curriculum Vitae">
+              <span class="cv-label">CV</span>
+            </a>
+          {% endif %}
+          {% if bottom_email %}
+            <a href="mailto:{{ bottom_email | encode_email }}" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          {% endif %}
+          {% if bottom_linkedin %}
+            <a href="https://www.linkedin.com/in/{{ bottom_linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          {% endif %}
+          {% if bottom_orcid %}
+            <a href="https://orcid.org/{{ bottom_orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+              <i class="ai ai-orcid"></i>
+            </a>
+          {% endif %}
+          {% if bottom_scholar %}
+            <a href="https://scholar.google.com/citations?user={{ bottom_scholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          {% endif %}
+          {% if bottom_github %}
+            <a href="https://github.com/{{ bottom_github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          {% endif %}
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

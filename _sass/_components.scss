@@ -178,6 +178,11 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0.2rem;
+
       img {
         width: 3.2rem;
         height: 3.2rem;
@@ -200,10 +205,23 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
+      .cv-label {
+        display: inline-block;
+        font-size: 0.8em;
+        line-height: 1;
+        font-weight: 700;
+        color: var(--global-text-color);
+        transition: color 0.2s ease-in-out;
+      }
+
       &:hover {
         text-decoration: none;
 
         i::before {
+          color: var(--global-theme-color);
+        }
+
+        .cv-label {
           color: var(--global-theme-color);
         }
       }
