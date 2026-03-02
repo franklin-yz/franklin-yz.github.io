@@ -299,6 +299,10 @@
   ></script>
 {% endif %}
 
+{% if site.enable_footer_stats and site.footer_stats_endpoint and site.footer_stats_endpoint != blank %}
+  <script defer src="{{ '/assets/js/footer-stats.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
 {% if site.enable_progressbar %}
   <!-- Scrolling Progress Bar -->
   <script defer src="{{ '/assets/js/progress-bar.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>

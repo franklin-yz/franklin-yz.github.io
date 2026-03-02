@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, Clinical Pharmacy Translational Science (Expected Dec 2026)<br>University of Michigan
+subtitle: 4th year PhD Candidate | Clinical Pharmacy Translational Science (Expected Dec 2026)
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -25,7 +25,7 @@ latest_posts:
 
 I am a PharmD and PhD candidate at the University of Michigan, College of Pharmacy. My long-term goal is to advance safer, more personalized treatment through predictive modeling, real-world evidence, pharmacoepidemiology, clinical pharmacology, causal machine learning, and health informatics tools.
 
-My training integrates clinical pharmacy, scientific computing, and bioinformatics across the College of Pharmacy, College of Engineering, and Medical School. This cross-disciplinary foundation enables me to work at the interface of therapeutic decision-making, quantitative modeling, and translational model-informed drug development.
+My training integrates [clinical pharmacy](https://pharmacy.umich.edu/pharmacy-programs/pharmd-program/), [health services research](https://pharmacy.umich.edu/pharmacy-programs/phd/clinical-pharmacy-translation-science/health-services-research-track/), [scientific computing](https://micde.umich.edu/academic-programs/phd-in-scientific-computing/), and [bioinformatics](https://medschool.umich.edu/departments/computational-medicine-bioinformatics/education/dual-degree-program) across the [College of Pharmacy](https://pharmacy.umich.edu), [College of Engineering](https://engineering.umich.edu/), and [Medical School](https://medschool.umich.edu/) at the University of Michigan. This cross-disciplinary foundation enables me to work at the interface of therapeutic decision-making, quantitative modeling, and translational model-informed drug development.
 
 I conduct research in the [Medication Data Science (MeDS) Lab](https://pharmacy.umich.edu/lab/medication-data-science-lab/) under the mentorship of [Dr. Corey Lester](https://pharmacy.umich.edu/people/lester-corey/), focusing on human-AI decision support, medication safety, and longitudinal modeling of real-world treatment patterns.
 

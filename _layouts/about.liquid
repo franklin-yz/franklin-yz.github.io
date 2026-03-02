@@ -23,6 +23,32 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    {% assign contact_email = site.data.socials.email %}
+    {% assign linkedin_username = site.data.socials.linkedin_username %}
+    {% assign has_connect_links = false %}
+    {% if contact_email or linkedin_username %}
+      {% assign has_connect_links = true %}
+    {% endif %}
+    {% if has_connect_links %}
+      <div class="top-connect" aria-label="Connect">
+        {% if contact_email %}
+          <a class="top-connect-link" href="mailto:{{ contact_email | encode_email }}">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        {% endif %}
+        {% if linkedin_username %}
+          <a class="top-connect-link" href="https://www.linkedin.com/in/{{ linkedin_username }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        {% endif %}
+        <a class="top-connect-link" href="{{ '/assets/contact/Yifan_Zheng.vcf' | relative_url }}" download="Yifan_Zheng.vcf">
+          <i class="fa-solid fa-address-card"></i>
+          <span>Save Contact</span>
+        </a>
+      </div>
+    {% endif %}
   </header>
 
   <article>

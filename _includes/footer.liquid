@@ -9,7 +9,50 @@
   {% if site.last_updated %}
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
+  <a href="{{ '/privacy/' | relative_url }}">Privacy</a>.
 {% endcapture %}
+
+{% if site.enable_footer_stats and site.footer_stats_endpoint and site.footer_stats_endpoint != blank %}
+  <section
+    class="footer-stats-shell"
+    aria-label="Website visitor statistics"
+    data-footer-stats-endpoint="{{ site.footer_stats_endpoint }}"
+    data-footer-stats-timezone="{{ site.footer_stats_timezone | default: 'America/Detroit' }}"
+  >
+    <div class="container">
+      <div class="footer-stats-card">
+        <div class="footer-stats-header">
+          <h2 class="footer-stats-title">Website Stats</h2>
+          <p class="footer-stats-updated" data-footer-stats-updated></p>
+        </div>
+
+        <div class="footer-stats-metrics" role="list" aria-label="Visitor metrics">
+          <div class="footer-stats-metric" role="listitem">
+            <span class="footer-stats-label">Today</span>
+            <span class="footer-stats-value" data-footer-stats-today>--</span>
+          </div>
+          <div class="footer-stats-metric" role="listitem">
+            <span class="footer-stats-label">Total</span>
+            <span class="footer-stats-value" data-footer-stats-total>--</span>
+          </div>
+        </div>
+
+        <div class="footer-stats-map-wrap">
+          <div class="footer-stats-map" data-footer-stats-map aria-label="Visitor map by country"></div>
+          <div class="footer-stats-countries">
+            <h3 class="footer-stats-countries-title">Top countries</h3>
+            <ol class="footer-stats-countries-list" data-footer-stats-countries></ol>
+          </div>
+        </div>
+
+        <p class="footer-stats-status" data-footer-stats-status>Loading visitor stats...</p>
+        <noscript>
+          <p class="footer-stats-status">Enable JavaScript to view visitor stats.</p>
+        </noscript>
+      </div>
+    </div>
+  </section>
+{% endif %}
 
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">

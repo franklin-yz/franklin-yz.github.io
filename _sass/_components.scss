@@ -215,6 +215,175 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// About page top connect row
+.post-header {
+  .top-connect {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.1rem;
+    align-items: center;
+    margin-top: 0.45rem;
+  }
+
+  .top-connect-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: var(--global-text-color);
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.12em;
+
+    i {
+      font-size: 0.9rem;
+      width: 0.95rem;
+      text-align: center;
+      color: var(--global-text-color);
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-theme-color);
+
+      i {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+// Footer visitor stats module
+.footer-stats-shell {
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+
+  .footer-stats-card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    background: var(--global-bg-color);
+    padding: 1rem 1.1rem 1.1rem;
+  }
+
+  .footer-stats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-stats-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+
+  .footer-stats-updated {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+
+  .footer-stats-metrics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin-bottom: 0.95rem;
+  }
+
+  .footer-stats-metric {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.6rem;
+    padding: 0.55rem 0.7rem;
+    background: rgba(0, 39, 76, 0.04);
+  }
+
+  .footer-stats-label {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.15rem;
+  }
+
+  .footer-stats-value {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--global-theme-color);
+  }
+
+  .footer-stats-map-wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 0.85rem;
+    align-items: start;
+  }
+
+  .footer-stats-map {
+    min-height: 220px;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.6rem;
+    padding: 0.15rem;
+
+    &.is-empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+    }
+  }
+
+  .footer-stats-countries {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.6rem;
+    padding: 0.55rem 0.65rem;
+  }
+
+  .footer-stats-countries-title {
+    margin: 0 0 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+  }
+
+  .footer-stats-countries-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    font-size: 0.83rem;
+  }
+
+  .footer-stats-country-item {
+    margin-bottom: 0.25rem;
+  }
+
+  .footer-stats-status {
+    margin: 0.75rem 0 0;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+
+    &.is-error {
+      color: #9d1b1e;
+      font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-stats-shell {
+    .footer-stats-map-wrap {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-stats-map {
+      min-height: 190px;
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
