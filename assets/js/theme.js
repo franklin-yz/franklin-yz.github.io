@@ -184,7 +184,18 @@ let setEchartsTheme = (theme) => {
 let setPlotlyTheme = (theme) => {
   document.querySelectorAll(".js-plotly-plot").forEach((elem) => {
     // Get the code block content from previous element, since it is the plotly code itself as defined in Markdown, but it is hidden
-    let jsonData = JSON.parse(elem.previousSibling.childNodes[0].innerHTML);
+    const previousElement = elem.previousElementSibling;
+    const codeNode = previousElement && previousElement.childNodes ? previousElement.childNodes[0] : null;
+    if (!codeNode || !codeNode.innerHTML) {
+      return;
+    }
+
+    let jsonData;
+    try {
+      jsonData = JSON.parse(codeNode.innerHTML);
+    } catch (error) {
+      return;
+    }
 
     if (theme === "dark") {
       // dark theme extracted from https://github.com/plotly/plotly.py/blob/main/plotly/package_data/templates/plotly_dark.json?raw=true
@@ -218,7 +229,11 @@ let setPlotlyTheme = (theme) => {
       }
     }
 
-    Plotly.relayout(elem, jsonData.layout);
+    try {
+      Plotly.relayout(elem, jsonData.layout);
+    } catch (error) {
+      return;
+    }
   });
 };
 
