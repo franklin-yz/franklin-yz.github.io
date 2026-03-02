@@ -10,9 +10,7 @@ This Cloudflare Worker exposes a public read-only `/stats` endpoint for your Jek
 {
   "today_visits": 0,
   "total_visits": 0,
-  "countries": [
-    { "code": "US", "name": "United States", "visits": 0 }
-  ],
+  "countries": [{ "code": "US", "name": "United States", "visits": 0 }],
   "generated_at": "2026-03-02T00:00:00.000Z"
 }
 ```
@@ -29,6 +27,7 @@ wrangler secret put PIRSCH_DOMAIN_ID
 ```
 
 3. Optional vars in `wrangler.toml`:
+
 - `TIMEZONE` (default: `America/Detroit`)
 - `COUNTRY_LOOKBACK_DAYS` (default: `30`)
 - `ALLOWED_ORIGINS` (optional comma-separated origin allowlist)
