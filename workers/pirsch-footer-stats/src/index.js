@@ -105,7 +105,9 @@ function resolveCountryName(code, explicitName) {
     return explicitName;
   }
 
-  const normalizedCode = String(code || "").trim().toUpperCase();
+  const normalizedCode = String(code || "")
+    .trim()
+    .toUpperCase();
   if (!normalizedCode) {
     return "Unknown";
   }

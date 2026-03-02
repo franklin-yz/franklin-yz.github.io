@@ -28,7 +28,9 @@
   }
 
   function getRegionName(code) {
-    const normalized = String(code || "").trim().toUpperCase();
+    const normalized = String(code || "")
+      .trim()
+      .toUpperCase();
     if (!normalized) {
       return "Unknown";
     }
@@ -48,7 +50,9 @@
 
     return countries
       .map((item) => {
-        const code = String(item.code || "").trim().toUpperCase();
+        const code = String(item.code || "")
+          .trim()
+          .toUpperCase();
         const visits = Number(item.visits);
         const name = String(item.name || "").trim();
 
