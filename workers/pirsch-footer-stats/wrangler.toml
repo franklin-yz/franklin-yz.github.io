@@ -1,0 +1,14 @@
+name = "pirsch-footer-stats"
+main = "src/index.js"
+compatibility_date = "2026-03-02"
+
+[vars]
+TIMEZONE = "America/Detroit"
+COUNTRY_LOOKBACK_DAYS = "30"
+# Optional: comma-separated allowlist, e.g. "https://franklin-yz.github.io"
+ALLOWED_ORIGINS = ""
+
+# Required secret environment variables:
+# wrangler secret put PIRSCH_CLIENT_ID
+# wrangler secret put PIRSCH_CLIENT_SECRET
+# wrangler secret put PIRSCH_DOMAIN_ID
