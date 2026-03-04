@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: 4th year PhD Candidate | Clinical Pharmacy Translational Science (Expected Dec 2026)
+industry_resume_pdf: /assets/pdf/Y_Zheng_Resume_2026_Mar_Clinical_Pharm_Industry.pdf
 
 profile:
   align: right
