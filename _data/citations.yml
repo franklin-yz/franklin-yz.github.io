@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-04'
+  last_updated: '2026-03-09'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -26,7 +26,7 @@ papers:
     title: "Salvianolic Acid B Suppresses ER Stress\u2010Induced NLRP3 Inflammasome and Pyroptosis via the AMPK/FoxO4 and Syndecan\u20104/Rac1 Signaling Pathways in Human Endothelial Progenitor Cells"
     year: '2022'
   N2pA3U8AAAAJ:KlAtU1dfN6UC:
-    citations: 5
+    citations: 6
     title: "The effects of presenting ai uncertainty information on pharmacists\u2019 trust in automated pill recognition technology: Exploratory mixed subjects study"
     year: '2025'
   N2pA3U8AAAAJ:LkGwnXOMwfcC:
@@ -70,7 +70,7 @@ papers:
     title: Comparing the Performance of a Large Language Model and RxNorm Mapping for Detecting Medication Dispensing Errors from Real-world Data
     year: '2025'
   N2pA3U8AAAAJ:d1gkVwhDpl0C:
-    citations: 29
+    citations: 30
     title: "Pristimerin synergistically sensitizes conditionally reprogrammed patient derived-primary hepatocellular carcinoma cells to sorafenib through endoplasmic reticulum stress and \u2026"
     year: '2021'
   N2pA3U8AAAAJ:hqOjcs7Dif8C:
@@ -86,11 +86,11 @@ papers:
     title: 'Detecting ALK rearrangement by RT-PCR: A superior approach to next generation sequencing'
     year: '2021'
   N2pA3U8AAAAJ:roLk4NBRz8UC:
-    citations: 38
+    citations: 39
     title: 'Designing human-centered AI to prevent medication dispensing errors: focus group study with pharmacists'
     year: '2023'
   N2pA3U8AAAAJ:u-x6o8ySG0sC:
-    citations: 19
+    citations: 20
     title: 'Detecting ALK Rearrangement with RT-PCR: A Reliable Approach Compared with Next-Generation Sequencing in Patients with NSCLC'
     year: '2021'
   N2pA3U8AAAAJ:u5HHmVD_uO8C:
