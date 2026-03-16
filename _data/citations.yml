@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-16'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -18,7 +18,7 @@ papers:
     title: 'FAM83A: A Prognostic Biomarker and Its Correlation with Immune Infiltration in Lung Adenocarcinoma'
     year: '2022'
   N2pA3U8AAAAJ:9yKSN-GCB0IC:
-    citations: 11
+    citations: 12
     title: "Validated LC\u2013MS/MS method for quantitation of total and free mycophenolic acid concentration and its application to a pharmacokinetic study in pediatric renal transplant recipients"
     year: '2021'
   N2pA3U8AAAAJ:IjCSPb-OGe4C:
@@ -46,7 +46,7 @@ papers:
     title: "Effect of uncertainty-aware AI models on pharmacists\u2019 reaction time and decision-making in a web-based mock medication verification task: randomized controlled trial"
     year: '2025'
   N2pA3U8AAAAJ:UebtZRa9Y70C:
-    citations: 5
+    citations: 6
     title: 'Optimal exposure of mycophenolic acid for induction therapy of childhood lupus nephritis patients: an observational cohort study'
     year: '2024'
   N2pA3U8AAAAJ:W7OEmFMy1HYC:
@@ -70,7 +70,7 @@ papers:
     title: Comparing the Performance of a Large Language Model and RxNorm Mapping for Detecting Medication Dispensing Errors from Real-world Data
     year: '2025'
   N2pA3U8AAAAJ:d1gkVwhDpl0C:
-    citations: 30
+    citations: 31
     title: "Pristimerin synergistically sensitizes conditionally reprogrammed patient derived-primary hepatocellular carcinoma cells to sorafenib through endoplasmic reticulum stress and \u2026"
     year: '2021'
   N2pA3U8AAAAJ:hqOjcs7Dif8C:
