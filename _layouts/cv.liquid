@@ -42,6 +42,7 @@ layout: default
       {% comment %} Determine which CV format to render {% endcomment %}
       {% assign render_rendercv = false %}
       {% assign render_jsonresume = false %}
+      {% assign hidden_sections = page.hidden_sections | default: '' | split: ',' %}
 
       {% if page.cv_format == 'rendercv' %}
         {% assign render_rendercv = true %}
@@ -144,6 +145,9 @@ layout: default
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
           {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+            {% continue %}
+          {% endif %}
+          {% if hidden_sections contains section_title %}
             {% continue %}
           {% endif %}
 
