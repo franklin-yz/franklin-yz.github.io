@@ -42,7 +42,11 @@ layout: default
       {% comment %} Determine which CV format to render {% endcomment %}
       {% assign render_rendercv = false %}
       {% assign render_jsonresume = false %}
-      {% assign hidden_sections = page.hidden_sections | default: '' | split: ',' %}
+      {% if page.hidden_sections %}
+        {% assign hidden_sections = page.hidden_sections %}
+      {% else %}
+        {% assign hidden_sections = '' | split: ',' %}
+      {% endif %}
 
       {% if page.cv_format == 'rendercv' %}
         {% assign render_rendercv = true %}
