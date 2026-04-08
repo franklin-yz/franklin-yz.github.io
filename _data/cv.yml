@@ -3,7 +3,7 @@ cv:
   label: PhD Candidate in Health Services Research
   email: yifzheng@umich.edu
   image: ""
-  summary: Researcher focused on real-world evidence, causal inference, pharmacy informatics, and human-AI collaboration to improve medication safety and treatment outcomes.
+  summary: Researcher focused on real-world evidence, clinical pharmacology, causal inference, pharmacy informatics, and human-AI collaboration to improve medication safety and treatment outcomes.
 
   social_networks:
     - network: GitHub
@@ -88,6 +88,10 @@ cv:
         date: 2026
         awarder: ASCPT Annual Meeting
 
+      - title: Rackham Predoctoral Fellowship
+        awarder: Rackham Graduate School, University of Michigan
+        summary: Supports outstanding doctoral students who have achieved candidacy and are actively working on dissertation research and writing.
+
       - title: Rho Chi Honor Society
         date: 2025
         awarder: University of Michigan
@@ -103,6 +107,17 @@ cv:
       - title: Top Article Award
         date: 2021
         awarder: BMJ Quality and Safety
+
+      - title: The Presidential Scholarship (The University's Highest Honor)
+        date: 2014
+        awarder: China Pharmaceutical University, Nanjing, China
+
+    Publications:
+      - title: "The impact of data source on real-world medication adherence and exposure measures: From prescription to sold"
+        date: "2026-04"
+        publisher: "Journal of Managed Care & Specialty Pharmacy"
+        url: https://www.jmcp.org/doi/10.18553/jmcp.2026.32.4.434
+        summary: First-authored study comparing how written, filled, and sold prescription records change real-world medication adherence and exposure estimates.
 
     Grants:
       - bullet: "Contributor, NHLBI R21 proposal: Supporting Personalized Medication Treatment Decisions from Real-World Evidence with Causal Machine Learning (under review, 2026-2028)."
