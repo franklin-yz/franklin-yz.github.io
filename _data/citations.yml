@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-15'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -46,11 +46,11 @@ papers:
     title: "Comparison of the checkpoint inhibitor pneumonitis incidence between immunotherapy alone or in combination with chemotherapy for lung cancer: An observational, retrospective \u2026"
     year: '2022'
   N2pA3U8AAAAJ:ULOm3_A8WrAC:
-    citations: 6
+    citations: 7
     title: "Effect of uncertainty-aware AI models on pharmacists\u2019 reaction time and decision-making in a web-based mock medication verification task: randomized controlled trial"
     year: '2025'
   N2pA3U8AAAAJ:UebtZRa9Y70C:
-    citations: 7
+    citations: 8
     title: 'Optimal exposure of mycophenolic acid for induction therapy of childhood lupus nephritis patients: an observational cohort study'
     year: '2024'
   N2pA3U8AAAAJ:W7OEmFMy1HYC:
@@ -90,7 +90,7 @@ papers:
     title: 'Detecting ALK rearrangement by RT-PCR: A superior approach to next generation sequencing'
     year: '2021'
   N2pA3U8AAAAJ:roLk4NBRz8UC:
-    citations: 39
+    citations: 40
     title: 'Designing human-centered AI to prevent medication dispensing errors: focus group study with pharmacists'
     year: '2023'
   N2pA3U8AAAAJ:u-x6o8ySG0sC:
