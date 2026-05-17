@@ -456,7 +456,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Y_Zheng_CV_2026_academic.pdf", "_blank");
+          window.open("/assets/pdf/Y_Zheng_CV_2026.pdf", "_blank");
         },
       },{
         id: 'social-email',
