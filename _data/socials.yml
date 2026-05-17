@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/Y_Zheng_CV_2026_academic.pdf
+cv_pdf: /assets/pdf/Y_Zheng_CV_2026.pdf
 email: yifzheng@umich.edu
 linkedin_username: yifanzhengumich
 orcid_id: 0000-0002-6997-735X
