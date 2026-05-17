@@ -3,7 +3,7 @@ cv:
   label: PhD Candidate in Health Services Research
   email: yifzheng@umich.edu
   image: ""
-  summary: Researcher focused on real-world evidence, clinical pharmacology, causal inference, pharmacy informatics, and human-AI collaboration to improve medication safety and treatment outcomes.
+  summary: Researcher in real-world evidence, pharmacoepidemiology, and health outcomes research, applying epidemiologic study design, causal inference, and quantitative modeling of large healthcare data to improve medication use, drug safety, and treatment outcomes.
 
   social_networks:
     - network: GitHub
@@ -47,23 +47,24 @@ cv:
           - "Elite Training Program (selective admission)"
 
     Experience:
-      - company: AbbVie
-        position: Part-time Student Worker, Real-World Evidence Group
+      - company: AbbVie (via HireGenics)
+        position: Real-World Evidence Analyst (Contractor)
         location: Remote, USA
-        start_date: "2025-11"
+        start_date: "2025-10"
         end_date: present
         highlights:
-          - "Analyzed real-world oncology data to characterize care gaps in ovarian cancer treatment."
-          - "Applied machine learning to identify provider-level intervention opportunities."
+          - "Synthesized large-scale real-world oncology data to characterize treatment and care gaps in ovarian cancer, informing evidence generation and medical strategy."
+          - "Built machine learning models to segment providers by engagement opportunity, supporting targeted Medical Affairs strategy."
+          - "Launched and led an internal AI-driven analytics initiative to improve analytic efficiency across the team."
 
       - company: Merck
-        position: Co-op Intern
+        position: Quantitative Pharmacology Co-op Intern
         location: West Point, PA, USA
         start_date: "2025-02"
         end_date: "2025-08"
         highlights:
-          - "Conducted clinical pharmacology analyses using model-based network meta-analysis (MBMA), nonlinear mixed-effects models, and random forest methods in ophthalmology."
-          - "Supported dose-selection and go/no-go development decisions through comparative efficacy and safety evidence synthesis."
+          - "Conducted model-based network meta-analysis (MBMA) and evidence synthesis across ophthalmology clinical trials to evaluate comparative efficacy, safety, and effectiveness."
+          - "Supported dose-selection and go/no-go development decisions through comparative effectiveness evidence synthesis."
 
       - company: Medication Data Science Lab, University of Michigan
         position: Doctoral Researcher
@@ -84,13 +85,17 @@ cv:
           - "Mentored master's students and co-taught therapeutics, receiving a teaching competition award."
 
     Awards:
-      - title: Presidential Trainee Award
-        date: 2026
-        awarder: ASCPT Annual Meeting
-
       - title: Rackham Predoctoral Fellowship
         date: "2026-2027"
         awarder: Rackham Graduate School, University of Michigan
+
+      - title: Research Presentation Award (Top 5% Finalist)
+        date: 2026
+        awarder: ISPOR Annual Meeting
+
+      - title: Presidential Trainee Award
+        date: 2026
+        awarder: ASCPT Annual Meeting
 
       - title: Rho Chi Honor Society
         date: 2025
@@ -123,9 +128,10 @@ cv:
       - bullet: "Contributor, NHLBI R21 proposal: Supporting Personalized Medication Treatment Decisions from Real-World Evidence with Causal Machine Learning (under review, 2026-2028)."
 
     Presentations:
+      - bullet: "ISPOR Annual Meeting (2026): When adherence estimates differ — the impact of data source and gap handling in real-world medication-use assessment (Poster; Top 5% Research Presentation Award)."
       - bullet: "ASCPT Annual Meeting (2026): Model-based meta-analysis for diabetic macular edema (Poster)."
-      - bullet: "SMM4H/ACL (2024): Deep-LLMADEminer for adverse drug event extraction and normalization (Poster)."
       - bullet: "Midwest SAP Meeting (2024): Real-world medication-taking behavior and personalized treatment decisions (Podium Oral)."
+      - bullet: "SMM4H/ACL (2024): Deep-LLMADEminer for adverse drug event extraction and normalization (Poster)."
       - bullet: "AMIA Annual Symposium (2023): Human-centered AI for medication dispensing error prevention (Poster)."
 
     Leadership:
@@ -144,18 +150,28 @@ cv:
       - bullet: "Journal peer reviewer with 15 review records across medical informatics and pharmacy journals."
 
     Skills:
-      - name: Methods
+      - name: Outcomes Research & Epidemiology
+        level: Advanced
+        icon: fa-solid fa-chart-line
+        keywords:
+          - Real-world evidence
+          - Pharmacoepidemiology
+          - Observational study design
+          - Comparative effectiveness research
+          - Drug safety & pharmacovigilance
+          - Evidence synthesis & meta-analysis
+
+      - name: Quantitative Methods
         level: Advanced
         icon: fa-solid fa-flask
         keywords:
-          - Real-world evidence
           - Causal inference
           - Survival analysis
-          - Regression modeling
+          - Regression & longitudinal modeling
           - Machine learning
           - Natural language processing
 
-      - name: Tools
+      - name: Data & Tools
         level: Advanced
         icon: fa-solid fa-code
         keywords:
@@ -163,5 +179,5 @@ cv:
           - Python
           - SQL
           - Git
-          - TensorFlow
-          - GPT API
+          - EHR & pharmacy claims data
+          - LLM / GPT API
