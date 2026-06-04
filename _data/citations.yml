@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-05-18'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -9,12 +9,16 @@ papers:
     citations: 19
     title: "Evaluation of a pharmacist-led remote warfarin management model using a smartphone application (Yixing) in improving patients\u2019 knowledge and outcomes of anticoagulation therapy"
     year: '2021'
+  N2pA3U8AAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: 1071P Analysis of pulmonary adverse events associated with immune checkpoint inhibitors based on FAERS and VigiBase database
+    year: '2023'
   N2pA3U8AAAAJ:4TOpqqG69KYC:
     citations: 0
     title: 'The impact of data source on real-world medication adherence and exposure measures: From prescription to sold'
     year: '2026'
   N2pA3U8AAAAJ:5nxA0vEk-isC:
-    citations: 20
+    citations: 21
     title: A disproportionality analysis of FDA adverse event reporting system (FAERS) events for ticagrelor
     year: '2024'
   N2pA3U8AAAAJ:8k81kl-MbHgC:
@@ -26,17 +30,21 @@ papers:
     title: "Validated LC\u2013MS/MS method for quantitation of total and free mycophenolic acid concentration and its application to a pharmacokinetic study in pediatric renal transplant recipients"
     year: '2021'
   N2pA3U8AAAAJ:IjCSPb-OGe4C:
-    citations: 48
+    citations: 50
     title: "Salvianolic Acid B Suppresses ER Stress\u2010Induced NLRP3 Inflammasome and Pyroptosis via the AMPK/FoxO4 and Syndecan\u20104/Rac1 Signaling Pathways in Human Endothelial Progenitor Cells"
     year: '2022'
   N2pA3U8AAAAJ:KlAtU1dfN6UC:
-    citations: 6
+    citations: 8
     title: "The effects of presenting ai uncertainty information on pharmacists\u2019 trust in automated pill recognition technology: Exploratory mixed subjects study"
     year: '2025'
   N2pA3U8AAAAJ:LkGwnXOMwfcC:
-    citations: 6
+    citations: 7
     title: 'Gut-derived fungemia due to Kodamaea ohmeri combined with invasive pulmonary aspergillosis: a case report'
     year: '2022'
+  N2pA3U8AAAAJ:M3ejUd6NZC8C:
+    citations: 0
+    title: "Identifying High\u2010Risk Medications for Drug\u2010Induced Dystonia: A 20\u2010Year Retrospective Real\u2010World Pharmacovigilance Study Based on FAERS"
+    year: '2026'
   N2pA3U8AAAAJ:MXK_kJrjxJIC:
     citations: 7
     title: 'Comparison of pneumonitis risk between immunotherapy alone and in combination with chemotherapy: an observational, retrospective pharmacovigilance study'
@@ -46,11 +54,11 @@ papers:
     title: "Comparison of the checkpoint inhibitor pneumonitis incidence between immunotherapy alone or in combination with chemotherapy for lung cancer: An observational, retrospective \u2026"
     year: '2022'
   N2pA3U8AAAAJ:ULOm3_A8WrAC:
-    citations: 7
+    citations: 9
     title: "Effect of uncertainty-aware AI models on pharmacists\u2019 reaction time and decision-making in a web-based mock medication verification task: randomized controlled trial"
     year: '2025'
   N2pA3U8AAAAJ:UebtZRa9Y70C:
-    citations: 8
+    citations: 9
     title: 'Optimal exposure of mycophenolic acid for induction therapy of childhood lupus nephritis patients: an observational cohort study'
     year: '2024'
   N2pA3U8AAAAJ:W7OEmFMy1HYC:
@@ -73,6 +81,10 @@ papers:
     citations: 0
     title: Comparing the Performance of a Large Language Model and RxNorm Mapping for Detecting Medication Dispensing Errors from Real-world Data
     year: '2025'
+  N2pA3U8AAAAJ:aqlVkmm33-oC:
+    citations: 2
+    title: Analysis of pulmonary adverse events associated with immune checkpoint inhibitors based on FAERS and VigiBase database
+    year: '2025'
   N2pA3U8AAAAJ:d1gkVwhDpl0C:
     citations: 31
     title: "Pristimerin synergistically sensitizes conditionally reprogrammed patient derived-primary hepatocellular carcinoma cells to sorafenib through endoplasmic reticulum stress and \u2026"
@@ -89,8 +101,12 @@ papers:
     citations: 0
     title: 'Detecting ALK rearrangement by RT-PCR: A superior approach to next generation sequencing'
     year: '2021'
+  N2pA3U8AAAAJ:qxL8FJ1GzNcC:
+    citations: 2
+    title: 'Drug-induced dementia: a pharmacovigilance analysis of the FAERS database'
+    year: '2024'
   N2pA3U8AAAAJ:roLk4NBRz8UC:
-    citations: 40
+    citations: 43
     title: 'Designing human-centered AI to prevent medication dispensing errors: focus group study with pharmacists'
     year: '2023'
   N2pA3U8AAAAJ:u-x6o8ySG0sC:
