@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-06-15'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
     title: 'Pharmacist-initiated interventions using RxChange message communication with prescribers for electronic prescriptions: A retrospective descriptive study'
     year: '2024'
   N2pA3U8AAAAJ:2osOgNQ5qMEC:
-    citations: 19
+    citations: 20
     title: "Evaluation of a pharmacist-led remote warfarin management model using a smartphone application (Yixing) in improving patients\u2019 knowledge and outcomes of anticoagulation therapy"
     year: '2021'
   N2pA3U8AAAAJ:4DMP91E08xMC:
@@ -18,7 +18,7 @@ papers:
     title: 'The impact of data source on real-world medication adherence and exposure measures: From prescription to sold'
     year: '2026'
   N2pA3U8AAAAJ:5nxA0vEk-isC:
-    citations: 21
+    citations: 22
     title: A disproportionality analysis of FDA adverse event reporting system (FAERS) events for ticagrelor
     year: '2024'
   N2pA3U8AAAAJ:8k81kl-MbHgC:
@@ -34,7 +34,7 @@ papers:
     title: "Salvianolic Acid B Suppresses ER Stress\u2010Induced NLRP3 Inflammasome and Pyroptosis via the AMPK/FoxO4 and Syndecan\u20104/Rac1 Signaling Pathways in Human Endothelial Progenitor Cells"
     year: '2022'
   N2pA3U8AAAAJ:KlAtU1dfN6UC:
-    citations: 8
+    citations: 9
     title: "The effects of presenting ai uncertainty information on pharmacists\u2019 trust in automated pill recognition technology: Exploratory mixed subjects study"
     year: '2025'
   N2pA3U8AAAAJ:LkGwnXOMwfcC:
@@ -70,11 +70,11 @@ papers:
     title: 'A rapid and durable response to cabozantinib in an osimertinib-resistant lung cancer patient with MET D1228N mutation: a case report'
     year: '2021'
   N2pA3U8AAAAJ:Y0pCki6q_DkC:
-    citations: 1
+    citations: 2
     title: 'Combination of immune checkpoint inhibitors plus chemotherapy and risk of pneumonitis: A worldwide retrospective pharmacovigilance study.'
     year: '2022'
   N2pA3U8AAAAJ:YOwf2qJgpHMC:
-    citations: 1
+    citations: 2
     title: "LHS712_ADENotGood at# SMM4H 2024 Task 1: Deep-LLMADEminer: A deep learning and LLM pharmacovigilance pipeline for extraction and normalization of adverse drug event mentions on \u2026"
     year: '2024'
   N2pA3U8AAAAJ:_kc_bZDykSQC:
@@ -106,7 +106,7 @@ papers:
     title: 'Drug-induced dementia: a pharmacovigilance analysis of the FAERS database'
     year: '2024'
   N2pA3U8AAAAJ:roLk4NBRz8UC:
-    citations: 43
+    citations: 45
     title: 'Designing human-centered AI to prevent medication dispensing errors: focus group study with pharmacists'
     year: '2023'
   N2pA3U8AAAAJ:u-x6o8ySG0sC:
@@ -118,6 +118,6 @@ papers:
     title: 'Work effort, readability and quality of pharmacy transcription of patient directions from electronic prescriptions: a retrospective observational cohort analysis'
     year: '2021'
   N2pA3U8AAAAJ:zYLM7Y9cAGgC:
-    citations: 15
+    citations: 16
     title: Evaluation of quality and readability of over-the-counter medication package inserts
     year: '2022'
