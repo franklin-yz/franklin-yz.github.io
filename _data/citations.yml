@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-06-19'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -74,7 +74,7 @@ papers:
     title: 'Combination of immune checkpoint inhibitors plus chemotherapy and risk of pneumonitis: A worldwide retrospective pharmacovigilance study.'
     year: '2022'
   N2pA3U8AAAAJ:YOwf2qJgpHMC:
-    citations: 2
+    citations: 3
     title: "LHS712_ADENotGood at# SMM4H 2024 Task 1: Deep-LLMADEminer: A deep learning and LLM pharmacovigilance pipeline for extraction and normalization of adverse drug event mentions on \u2026"
     year: '2024'
   N2pA3U8AAAAJ:_kc_bZDykSQC:
