@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-08'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -69,6 +69,10 @@ papers:
     citations: 8
     title: 'A rapid and durable response to cabozantinib in an osimertinib-resistant lung cancer patient with MET D1228N mutation: a case report'
     year: '2021'
+  N2pA3U8AAAAJ:Wp0gIr-vW9MC:
+    citations: 0
+    title: 'PT26 WHEN ADHERENCE ESTIMATES DIFFER: THE IMPACT OF DATA SOURCE AND GAP HANDLING IN REAL-WORLD MEDICATION USE ASSESSMENT'
+    year: '2026'
   N2pA3U8AAAAJ:Y0pCki6q_DkC:
     citations: 2
     title: 'Combination of immune checkpoint inhibitors plus chemotherapy and risk of pneumonitis: A worldwide retrospective pharmacovigilance study.'
@@ -106,7 +110,7 @@ papers:
     title: 'Drug-induced dementia: a pharmacovigilance analysis of the FAERS database'
     year: '2026'
   N2pA3U8AAAAJ:roLk4NBRz8UC:
-    citations: 45
+    citations: 46
     title: 'Designing human-centered AI to prevent medication dispensing errors: focus group study with pharmacists'
     year: '2023'
   N2pA3U8AAAAJ:u-x6o8ySG0sC:
