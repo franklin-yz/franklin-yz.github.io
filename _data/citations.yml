@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-15'
 papers:
   N2pA3U8AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -54,7 +54,7 @@ papers:
     title: "Comparison of the checkpoint inhibitor pneumonitis incidence between immunotherapy alone or in combination with chemotherapy for lung cancer: An observational, retrospective \u2026"
     year: '2022'
   N2pA3U8AAAAJ:ULOm3_A8WrAC:
-    citations: 12
+    citations: 13
     title: "Effect of uncertainty-aware AI models on pharmacists\u2019 reaction time and decision-making in a web-based mock medication verification task: randomized controlled trial"
     year: '2025'
   N2pA3U8AAAAJ:UebtZRa9Y70C:
@@ -90,7 +90,7 @@ papers:
     title: Analysis of pulmonary adverse events associated with immune checkpoint inhibitors based on FAERS and VigiBase database
     year: '2025'
   N2pA3U8AAAAJ:d1gkVwhDpl0C:
-    citations: 31
+    citations: 32
     title: "Pristimerin synergistically sensitizes conditionally reprogrammed patient derived-primary hepatocellular carcinoma cells to sorafenib through endoplasmic reticulum stress and \u2026"
     year: '2021'
   N2pA3U8AAAAJ:hqOjcs7Dif8C:
@@ -114,7 +114,7 @@ papers:
     title: 'Designing human-centered AI to prevent medication dispensing errors: focus group study with pharmacists'
     year: '2023'
   N2pA3U8AAAAJ:u-x6o8ySG0sC:
-    citations: 21
+    citations: 20
     title: 'Detecting ALK Rearrangement with RT-PCR: A Reliable Approach Compared with Next-Generation Sequencing in Patients with NSCLC'
     year: '2021'
   N2pA3U8AAAAJ:u5HHmVD_uO8C:
